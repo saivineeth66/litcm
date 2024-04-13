@@ -69,7 +69,7 @@ setup(
     name = "litcm",
     version = __version__,
     description="Language Identification and Transliteration system for Indian Languages in Roman script code mixed with English",
-    long_description = open('README.rst', 'rb').read().decode('utf8'),
+    long_description = open('/content/litcm/README.rst', 'rb').read().decode('utf8'),
     keywords = ['Language Identification', 'Language Transliteration', 'WX', 
                 'Computational Linguistics', 'Indic', 'Code-Mixing'],
     author='Irshad Ahmad',
